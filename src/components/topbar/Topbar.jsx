@@ -11,7 +11,14 @@ export const Topbar = ({ menuOpen, setMenuOpen }) => {
             Jin.
           </a>
           <div className="itemContainer">
-            <GitHub className="github-icon" />
+            <a
+              className="github"
+              href="https://github.com/Jingu-web"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHub className="github-icon" />
+            </a>
           </div>
         </div>
         <div className="right">
