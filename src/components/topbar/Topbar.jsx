@@ -17,7 +17,13 @@ export const Topbar = ({ menuOpen, setMenuOpen }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <GitHub className="github-icon" />
+              <a
+                href="https://github.com/Jingu-web"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GitHub className="github-icon" />
+              </a>
             </a>
           </div>
         </div>

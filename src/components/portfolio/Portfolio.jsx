@@ -52,8 +52,6 @@ export const Portfolio = () => {
     }
   }, [selected]);
 
-  console.log(data);
-
   return (
     <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
@@ -70,10 +68,12 @@ export const Portfolio = () => {
       </ul>
       <div className="container">
         {data.map((d) => (
-          <div className="item" key={d.id}>
-            <img src={d.img} alt="" />
-            <h3>{d.title}</h3>
-          </div>
+          <a href={d.url} target="_blank" rel="noopener noreferrer">
+            <div className="item" key={d.id}>
+              <img src={d.img} alt="" />
+              <h3>{d.title}</h3>
+            </div>
+          </a>
         ))}
       </div>
     </div>
