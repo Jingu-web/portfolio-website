@@ -4,7 +4,6 @@ import "./app.scss";
 import { Topbar } from "./components/topbar/Topbar";
 import { Intro } from "./components/intro/Intro";
 import { Portfolio } from "./components/portfolio/Portfolio";
-import { Banner } from "./components/banner/Banner";
 import { Contact } from "./components/contact/Contact";
 import { Menu } from "./components/menu/Menu";
 
@@ -18,7 +17,6 @@ const App = () => {
       <div className="sections">
         <Intro />
         <Portfolio />
-        <Banner />
         <Contact />
       </div>
     </div>
