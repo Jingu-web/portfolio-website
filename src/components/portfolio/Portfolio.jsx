@@ -6,6 +6,7 @@ import {
   webAppPortfolio,
   staticWebsitePortfolio,
   designPortfolio,
+  bannerPortfolio,
   proposalPortfolio,
 } from "../../data";
 
@@ -27,6 +28,10 @@ export const Portfolio = () => {
       title: "Design",
     },
     {
+      id: "banner",
+      title: "Banner",
+    },
+    {
       id: "proposal",
       title: "Proposal",
     },
@@ -42,6 +47,9 @@ export const Portfolio = () => {
         break;
       case "design":
         setData(designPortfolio);
+        break;
+      case "banner":
+        setData(bannerPortfolio);
         break;
       case "proposal":
         setData(proposalPortfolio);
