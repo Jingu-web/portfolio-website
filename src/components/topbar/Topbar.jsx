@@ -1,4 +1,5 @@
 import { GitHub } from "@material-ui/icons";
+import { Instagram } from "@material-ui/icons";
 
 import "./topbar.scss";
 
@@ -17,7 +18,15 @@ export const Topbar = ({ menuOpen, setMenuOpen }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <GitHub className="github-icon" />
+              <GitHub className="icon" />
+            </a>
+            <a
+              className="instagram"
+              href="https://www.instagram.com/jingu_web"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Instagram className="icon" />
             </a>
           </div>
         </div>
