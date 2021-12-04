@@ -11,7 +11,7 @@ import {
 } from "../../data";
 
 export const Portfolio = () => {
-  const [selected, setSelected] = useState("webApp");
+  const [selected, setSelected] = useState("staticWebsite");
   const [data, setData] = useState([]);
 
   const list = [
