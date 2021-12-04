@@ -5,7 +5,7 @@ import { PortfolioList } from "../portfolioList/portfolioList";
 import {
   webAppPortfolio,
   staticWebsitePortfolio,
-  designPortfolio,
+  webDesignPortfolio,
   bannerPortfolio,
   proposalPortfolio,
 } from "../../data";
@@ -24,8 +24,8 @@ export const Portfolio = () => {
       title: "Static Website",
     },
     {
-      id: "design",
-      title: "Design",
+      id: "webDesign",
+      title: "Web Design",
     },
     {
       id: "banner",
@@ -45,8 +45,8 @@ export const Portfolio = () => {
       case "staticWebsite":
         setData(staticWebsitePortfolio);
         break;
-      case "design":
-        setData(designPortfolio);
+      case "webDesign":
+        setData(webDesignPortfolio);
         break;
       case "banner":
         setData(bannerPortfolio);
